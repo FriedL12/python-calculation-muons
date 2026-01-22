@@ -9,11 +9,11 @@ import matplotlib.pyplot as plt
 binsize = 5 # in degrees for plotting
 
 # building parameters
-thickness = 50
+thickness = 45
 length = 800
 height = 290
 setup_height = 100
-roof = 30
+roof = 154 - thickness
 
 dEdx = 0.004 # GeV cm^2/g for muons 2 to 3 GeV (2 MeV/cm for muon with constant 2 GeV, and 4 MeV/cm for distribution (Geant4)
 rho = 2.3 # g/cm^3 for concrete
